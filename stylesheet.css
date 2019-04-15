@@ -1,0 +1,66 @@
+ html {font-family: 'AdobeGaramondW01-Regula', georgia, serif;
+  font-size: 18px;
+  margin-bottom: 200px;
+ }
+ 
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-right: 200px;
+}
+
+li a:hover {
+  background-color: #111;
+} 
+
+.main-brand {
+
+    text-align: center;
+}
+.main-description {
+
+    text-align: center;
+}
+
+.row{
+  display: flex;
+  border: solid;
+   
+}
+.story-title {
+  text-align: center;
+}
+
+.story-half {
+
+   max-width: 750px;
+  margin: 0 auto;
+
+}
+
+.img {
+  width: 100%;
+  
+}
+.president {
+   display: grid;
+    grid-row-gap: 20px;
+    border: solid;
+    margin-bottom: 25px; 
+   
+}
