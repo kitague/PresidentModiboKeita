@@ -2,44 +2,88 @@
   font-size: 18px;
   margin-bottom: 200px;
  }
+ .navbar{
+    position: fixed;
+    height: 80px;
+    overflow: hidden;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background: #f1f1f1;
+    width: 100%;
  
- ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+ }
+ .logo a {
+    position: fixed;
+    height: 80px;
+    overflow: hidden;
+    top: 0;
+     display: flex;
+     align-items: center;
+    background: #f1f1f1;
+    width: 100%;
+    float: left;
+ }
+
+ .menu{
+    position: absolute;
+    right: 20px;
+
 }
 
-li {
-  float: left;
+.logo a {
+  position: absolute;
+  left: 20px;
 }
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  margin-right: 200px;
+.logo a{
+  color: #333;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 20px;
+    transition: 0.3s;
+    text-transform: uppercase;
 }
 
-li a:hover {
-  background-color: #111;
-} 
-
+.logo a:hover {
+  color: #55efc4;
+}
+.menu a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 20px;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+.menu a:hover{
+    color: #55efc4;
+ 
+}
+.btn{
+    display: block;
+    position: absolute;
+    right: 20px;
+}
+.btn span{
+    display: none;
+    margin: 6px;
+    width: 40px;
+    height: 3px;
+    background: #333;
+}
 .main-brand {
-
+     margin-top: 100px;
     text-align: center;
 }
 .main-description {
-
+      margin-top: 40px; 
     text-align: center;
 }
 
 .row{
   display: flex;
-  border: solid;
+  
    
 }
 .story-title {
@@ -57,10 +101,69 @@ li a:hover {
   width: 100%;
   
 }
-.president {
-   display: grid;
-    grid-row-gap: 20px;
-    border: solid;
-    margin-bottom: 25px; 
+
+.previous {
+  text-align: center;
+  margin-top: 50px;
+}
+.president p {
+    -moz-column-count: 2;
+  -webkit-column-count: 2;
+  -moz-column-gap: 2em;
+  -webkit-column-gap: 2em;
+  column-count: 2;
+  column-gap: 2em; 
+
+     
    
 }
+
+.row-bottom {
+position: relative;
+text-align: center;
+    height: 80px;
+    overflow: hidden;
+    top: 50px;
+    bottom: 0;
+    display: flex;
+    background: #f1f1f1;
+    width: 100%;
+  
+}
+.row-bottom {
+  color: #333;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 20px;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+.row-bottom p {
+  text-align: center;
+}
+
+@media only  screen and (max-width : 600px){
+    .navbar{
+        overflow: visible;
+    }
+    .menu{
+        width: 100%;
+        right: 0;
+        top: 80px;
+        background: #f1f1f1;
+        overflow: hidden;
+        
+    }
+    .menu a{
+        display: block;
+        text-align: center;
+        padding: 10px;
+        margin: 0;
+         
+
+    }
+    .btn{
+        display: block;
+        cursor: pointer;
+    }
+  }
