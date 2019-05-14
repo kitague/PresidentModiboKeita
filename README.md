@@ -1,2 +1,2 @@
 #PresidentModiboKeita
-This is brief profile of First President of Republic of Mali on working progress
+This is a  brief profile of  the First President of Republic of Mali I will be updating ofte it work on  progress
